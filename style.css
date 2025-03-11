@@ -106,6 +106,10 @@ header, #content, footer {
   color:#FFFFFF; 
 }
 
+div {
+  padding: 25px 50px;
+}
+
 /* Menu Links */
 ul.main-menu {
   margin: 0;
