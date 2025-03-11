@@ -157,20 +157,27 @@ ul.main-menu li a.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.8); /* Matching the website's background */
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding: 5px 0;
     border-radius: 5px;
+    backdrop-filter: blur(5px); /* Adds a subtle blur effect */
 }
 
 /* Links in the dropdown */
+.dropdown-content li {
+    list-style: none;
+}
+
 .dropdown-content li a {
-    color: black;
-    padding: 8px 12px;
+    color: #cfd2da; /* Matching menu links */
+    padding: 10px 15px;
     text-decoration: none;
     display: block;
+    font-size: 1.5rem;
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Show dropdown on hover */
@@ -180,5 +187,6 @@ ul.main-menu li a.active {
 
 /* Style the dropdown items */
 .dropdown-content li a:hover {
-    background-color: #ddd;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+    color: #FFFFFF;
 }
