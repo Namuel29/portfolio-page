@@ -137,6 +137,10 @@ ul.main-menu li a.active {
   padding: 20px;
 }
 
+.work {
+  padding: 20px;
+}
+
 /* Utility classes */
 .hide {
   display:none;
