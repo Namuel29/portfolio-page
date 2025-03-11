@@ -131,11 +131,12 @@ ul.main-menu li a.active {
 
 .year {
   padding-bottom: 5px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .module {
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 /* Utility classes */
