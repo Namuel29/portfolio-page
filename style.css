@@ -130,15 +130,24 @@ ul.main-menu li a.active {
 }
 
 .year {
-  padding: 50px;
+  padding: 10px;
 }
 
 .module {
   padding: 20px;
 }
 
-.work {
-  padding: 20px;
+.padded-link {
+    padding: 10px 20px; /* Top & Bottom: 10px, Left & Right: 20px */
+    display: inline-block; /* Ensures padding applies properly */
+    background-color: #007bff; /* Adds a background color */
+    color: white; /* Changes text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Rounds corners */
+}
+
+.padded-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
 }
 
 /* Utility classes */
