@@ -129,6 +129,14 @@ ul.main-menu li a.active {
   border-bottom-color:#EF6D3D;
 }
 
+.year {
+  padding: 50px;
+}
+
+.module {
+  padding: 20px;
+}
+
 /* Utility classes */
 .hide {
   display:none;
@@ -161,10 +169,6 @@ ul.main-menu li a.active {
     padding: 8px 12px;
     text-decoration: none;
     display: block;
-}
-
-div {
-  padding-bottom: 50px;
 }
 
 /* Show dropdown on hover */
